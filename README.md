@@ -44,6 +44,10 @@ heat_sink_ai_project/
 - Corrected `R_jc` from 0.2 to 0.1 °C/W to match the PDF's reference example.
 - Refactored global variables into function parameters for sweepability.
 
+Note: trained_models.pkl (~122MB) is excluded from version control 
+(exceeds GitHub's file size limit). Re-run train_models.py to 
+regenerate it locally.
+
 ## Setup
 
 ```bash
@@ -51,3 +55,4 @@ python -m venv venv
 source venv/bin/activate   # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
+
